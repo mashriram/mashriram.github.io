@@ -1,0 +1,24 @@
+/* @media (min-width: 1368px) {
+  .parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1368px;
+  }
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+} */
+
+.parent {
+    background: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 1) 78%,
+        rgba(255, 147, 0, 1) 100%
+    );
+}
