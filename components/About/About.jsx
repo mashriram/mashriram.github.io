@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./About.module.css";
 import { getConfig } from "../../config";
 
-import aboutMeImg from "/images/img921ab.png";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@nextui-org/react";
