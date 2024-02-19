@@ -25,7 +25,7 @@ export function About() {
     return (
         <div className={styles.parent} id="about">
             <div className={styles.left}>
-                <img src={"/images/img921ab.png"} alt="aboutMe" />
+                <img src={"/images/person.jpg"} alt="aboutMe" />
             </div>
             <div className={styles.right}>
                 <h3 className={styles.heading}> About Me</h3>
