@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./About.module.css";
 import { getConfig } from "../../config";
 
-import aboutMeImg from "./images/img921ab.png";
+import aboutMeImg from "/images/img921ab.png";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@nextui-org/react";
@@ -25,7 +25,7 @@ export function About() {
     return (
         <div className={styles.parent} id="about">
             <div className={styles.left}>
-                <Image src={aboutMeImg} alt="aboutMe" fill />
+                <Image src="/images/img921ab.png" alt="aboutMe" fill />
             </div>
             <div className={styles.right}>
                 <h3 className={styles.heading}> About Me</h3>
