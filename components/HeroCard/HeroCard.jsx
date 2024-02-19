@@ -82,11 +82,12 @@ export function HeroCard() {
                 <div className={styles.connect}>{getSocial(config)}</div>
             </div>
             <div className={styles.rightPane}>
-                <Image
+                <img
                     className={styles.personalImage}
-                    src={imageMap[config.personalImage]}
+                    //src={imageMap[config.personalImage]}
+                    src={"/images/person.jpg"}
                     alt={"Image Of " + config.name}
-                ></Image>
+                ></img>
             </div>
         </div>
     );
