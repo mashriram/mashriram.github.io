@@ -7,17 +7,17 @@ import { Skills } from "@/components/Skills/Skills";
 import { Certifications } from "@/components/Certifications/Certifications";
 
 export default function Home() {
-  return (
-    <div className={styles.app}>
-      <NavBar className={styles.navBar}></NavBar>
-      <div className={styles.parent}>
-        <div className={styles.content}>
-          <HeroCard/>
-          <About/>
-          <Skills />
-          <Certifications/>
+    return (
+        <div className={styles.app}>
+            <NavBar className={styles.navBar}></NavBar>
+            <div className={styles.parent}>
+                <div className={styles.content}>
+                    <HeroCard />
+                    <About />
+                    <Skills />
+                    <Certifications />
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
