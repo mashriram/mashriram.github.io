@@ -23,7 +23,7 @@ export function getConfig() {
     },
     aboutMeImage: "image",
     aboutMeText:
-      "Aspiring AI/ML Engineer with strong problem solving skills, coding skills and a lot of curiosity. Completed Coursera's Python for Everybody course. I have 175 days streak in Leet Code, demonstrating problem-solving and coding skills. Completed Azure AI Applied Skills. Currently a 2nd year Computer Science student focusing on AI/ML, seeking opportunities to contribute and grow in the field of AI / ML.",
+      "Highly motivated and results-oriented Software Development Intern with a strong foundation in full-stack development and a keen interest in Artificial Intelligence and Machine Learning. Passionate about applying knowledge in real world applications.",
     aboutMeTags: ["Front end", "Back end", "Data Science"],
     downloadUrl: "/images/shriram_resume.pdf",
     technicalSkills: [
@@ -38,26 +38,25 @@ export function getConfig() {
       {
         title: "Programming Languages",
         skills: [
-          { name: "java", rating: 70 },
-          { name: "python", rating: 65 },
-          { name: "javascript", rating: 65 },
-          { name: "go", rating: 30 },
-          { name: "c/c++", rating: 35 },
-          { name: "html/css", rating: 80 },
+          { name: "java", rating: 60 },
+          { name: "python", rating: 40 },
+          { name: "javascript", rating: 60 },
+          { name: "c/c++", rating: 20 },
+          { name: "html/css", rating: 60 },
         ],
       },
       {
         title: "Frameworks",
         skills: [
-          { name: "React", rating: 50 },
+          { name: "React", rating: 60 },
           { name: "Spring Boot", rating: 40 },
         ],
       },
       {
         title: "Databases",
         skills: [
-          { name: "mySQL", rating: 70 },
-          { name: "postgreSQL", rating: 65 },
+          { name: "mySQL", rating: 60 },
+          { name: "postgreSQL", rating: 60 },
         ],
       },
     ],
